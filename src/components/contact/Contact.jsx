@@ -27,14 +27,14 @@ export const Contact = () => {
                 formRef.current, 
                 'Z16jZvK62fN5yGupZ'
             )
-            Swal.fire(
-                '¡Mensaje enviado!',
-                '¡Gracias por contactarme!',
-                'success'
-            )
-            .then((result) => {
-                console.log(result.text);
-                e.target.reset()
+        Swal.fire(
+            '¡Mensaje enviado!',
+            '¡Gracias por contactarme!',
+            'success'
+        )
+        .then((result) => {
+            console.log(result.text);
+            e.target.reset()
         }, (error) => {
             console.log(error.text);
         });
