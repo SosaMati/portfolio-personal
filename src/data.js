@@ -14,7 +14,7 @@ export const products = [
     {
         id: 2,
         img: Journal,
-        link: 'https://journal-app-five.vercel.app/',
+        link: 'https://journal-app-nu-eight.vercel.app/',
         repo: 'https://github.com/SosaMati/JournalApp'
     },
 
