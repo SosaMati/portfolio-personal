@@ -91,7 +91,7 @@ a {
     color: black;
 }
 
-a:hover {
+.c-info-item a:hover {
     transform:scale(1.1);
 }
 

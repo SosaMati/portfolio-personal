@@ -1,22 +1,26 @@
 import './product.css';
+import github from '../../img/github2.svg';
+import react from '../../img/react.svg';
 
 
-export const Product = ({img, link, repo}) => {
+export const Product = ({title, img, link, repo}) => {
+
+      
     return (
         <div className="p-c">
             <div className='p'>
-                  <div className="p-browser">
-                        <div className="p-circle"></div>
-                        <div className="p-circle"></div>
-                        <div className="p-circle"></div>
-                  </div>
-                  <a href={link} target="_blank" rel='noreferrer'>
-                        <img src={img} alt="" className='p-img' />
-                  </a>
+                        <div className='p-proyect'>
+                              <img src={img} alt="" className='p-img' />
+                              <div className='p-link animate__animated animate__fadeIn'>
+                                    <a href={link} target="_blank" rel='noreferrer'><img className='p-img-icon' src={react} alt="" /><h4>Demo</h4></a>
+                                    <a href={repo} target="_blank" rel='noreferrer'><img className='p-img-icon' src={github} alt="" /><h4>Repo</h4></a>
+                              </div>
+                        </div>
             </div>
             <div className="p-repo">
-                  <a href={repo} target="_blank" rel='noreferrer'>Repositorio</a>
+                  <p>{title}</p>
             </div>
         </div>   
   )
 }
+ 

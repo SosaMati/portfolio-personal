@@ -7,41 +7,49 @@
 .p-c {
     overflow: hidden;
     border: 1px solid rgb(243, 242, 242);
-    border-radius: 10px 10px 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 32%;
     height: 40vh;
-    margin: 20px 10px;
-}
-
-.p-browser {
-    height: 20px;
-    background-color: rgb(243, 242, 242);
-    display: flex;
-    align-items: center;
-    position: sticky;
-    z-index: 2;
-}
-
-.p-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin: 3px;
-    background-color: white;
-   
+    margin: 20px 5px;
 }
 
 .p-img {
     width: 100%;
-    transition: all 5s ease;
+    transition: all 1s ease;
 }
 
 .p:hover .p-img {
     transform: translateY(-30%);
+    filter: opacity(.1);
+}
+
+.p-proyect {
+    position: relative;
+}
+
+.p-proyect:hover > .p-link {
+    display: block;
+}
+
+
+.p-link{
+    position: absolute;
+    top: 50px;
+    display: none;
+    width: 100%;
+}
+
+.p-link a{
+    display: inline-block;
+    margin: 5%;
+}
+
+
+.p-img-icon{
+    width: 90px;
 }
 
 .p-repo {
@@ -49,16 +57,18 @@
     width: 100%;
 }
 
-.p-repo:hover {
-    background-color: rgba(220, 214, 214, 0.849);
-}
 
 
 @media screen and (max-width: 480px) {
     .p-c {
-        width: 45%;
+        width: 90%;
         height: 20vh;
-        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        
     }
 
     .p-repo {
