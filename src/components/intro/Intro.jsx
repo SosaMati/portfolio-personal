@@ -1,5 +1,5 @@
 import './intro.css';
-import me from '../../img/yo.png';
+import me from '../../img/yo.webp';
 
 
 export const Intro = () => {

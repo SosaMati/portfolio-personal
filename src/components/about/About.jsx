@@ -43,10 +43,10 @@ export const About = () => {
                     <h1 className="a-title">Sobre Mí</h1>
                     <p className="a-sub">
                     Soy un desarrollador web, apasionado por la tecnología y la programación.  
-                    Estoy cursando en segundo año de la Tecnicatura en Programación en el instituto Teclab y también de forma autodidacta mediante varios cursos que fui realizando. Día a día me capacito para poder incrementar mis conocimientos y habilidades. Me considero una persona responsable, con una actitud positiva y con una gran capacidad de adaptación.
+                    Estoy cursando el segundo año de la Tecnicatura en Programación en el instituto Teclab y también de forma autodidacta mediante varios cursos que fui realizando. Día a día me capacito para poder incrementar mis conocimientos y habilidades. Me considero una persona responsable, con una actitud positiva y con una gran capacidad de adaptación.
                     </p>
                     <p className="a-desc">
-                    Me certifique como Fullstack en el curso Codo a Codo (2021) de la agencia aprendizaje a lo largo de la vida. Realice certificaciones en freeCodeCamp en Responsive Web Desing y en JavaScrip Algorithms and Data Structures. También varias certificaciones en Udemy como por ejemplo cursos de Git, Github, Nodejs y MongoDb. Actualmente además de seguir la cursada de la tecnicatura, me encuentro aprendiendo React de la mano del profesor Fernando Herrera en Udemy.
+                    Actualmente me encuentro estudiando el stack MERN (MongoDB, Express, React y Node.js). 
                     </p>
             </div>
         </div>

@@ -1,8 +1,8 @@
-import Journal from '../src/img/journal.png';
-import Heroes from '../src/img/heroes.png';
-import Gift from '../src/img/gift.png';
-import Cotillon from '../src/img/cotillon.png';
-import Calendar from '../src/img/calendar.png';
+import Journal from '../src/img/journal.webp';
+import Heroes from '../src/img/heroes.webp';
+import Gift from '../src/img/gift.webp';
+import Cotillon from '../src/img/cotillon.webp';
+import Calendar from '../src/img/calendar.webp';
 
 
 export const products = [
