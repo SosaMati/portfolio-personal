@@ -4,7 +4,7 @@ import Gift from '../src/img/gift.webp';
 import Cotillon from '../src/img/cotillon.webp';
 import Calendar from '../src/img/calendar.webp';
 import Presupuesto from '../src/img/presupuesto.webp';
-import Veterinaria from '../src/img/veterinaria.webp';
+// import Veterinaria from '../src/img/veterinaria.webp';
 
 
 
